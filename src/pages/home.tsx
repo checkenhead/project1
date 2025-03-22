@@ -16,7 +16,9 @@ import { Card } from '@/components/layout/card'
 import { Flex } from '@/components/layout/flex'
 import { Input } from '@/components/io/input'
 import Feed from '@/components/feed/feed'
-import WhiteBoard from '@/components/WhiteBoard'
+import White_board from '@/components/white_board'
+import Video_chat from '@/components/video_chat'
+import VideoChat from '@/components/video_chat'
 
 enum POPUP_INDEX {
   CLOSED,
@@ -58,7 +60,8 @@ const Home = () => {
         <Card elevated>
           <Flex.Col.Center padding='2rem' gap='0rem'>
             <div style={{ width: '80dvw', height: '80dvh' }}>
-              <WhiteBoard />
+              {/*<White_board />*/}
+              <VideoChat />
             </div>
             {/*<Input.File label='upload' multiple name='test' onChange={test.onChange} />*/}
 

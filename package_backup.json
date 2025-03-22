@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:ssl-loc": "local-ssl-proxy --source 3001 --target 3000 --cert project1.pem --key project1-key.pem",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"

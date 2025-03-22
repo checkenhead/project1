@@ -12,6 +12,7 @@ import { VALIDATE_RESULT } from '@/util/constance/common.ts'
 import { Card } from '@/components/layout/card'
 import { Input } from '@/components/io/input'
 import { Flex } from '@/components/layout/flex'
+import { useState } from 'react'
 
 const NAME_PRESET = {
   name: '아이디',

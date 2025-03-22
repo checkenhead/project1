@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 .env
+project1.pem
+project1-key.pem

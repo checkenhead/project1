@@ -7,7 +7,7 @@ type ToolType = 'select' | 'pen' | 'hand' | 'record' | 'play' | 'eraser'
 const MIN_ZOOM = 0.01
 const MAX_ZOOM = 20
 
-const WhiteBoard = () => {
+const White_board = () => {
   const containerRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const fabricCanvas = useRef<fabric.Canvas | null>(null)
@@ -168,4 +168,4 @@ const WhiteBoard = () => {
   )
 }
 
-export default WhiteBoard
+export default White_board
